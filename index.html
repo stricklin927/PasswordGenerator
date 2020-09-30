@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Password Generator</title>
+
+    <!-- Reset and Style CSS links -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Password Generator</h1>
+      </header>
+
+      <!-- Content -->
+      <div class="card">
+        <div class="card-header">
+          <h2>Generate a Password</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password"
+            placeholder="Your Secure Password"
+            aria-label="Generated Password"
+          ></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="card-footer">
+          <!-- Button to generate password -->
+          <button id="generate" class="btng">Generate Password</button>
+          <!-- Button to copy to clipboard -->
+          <button id="copy" class="btnc">Copy to Clipboard</button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
