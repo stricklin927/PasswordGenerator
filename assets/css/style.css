@@ -132,22 +132,18 @@ button[disabled] {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+  font-size: 1rem;
 }
 
 @media (max-width: 690px) {
-  .btn {
+  .btng, .btnc {
     font-size: 1rem;
     margin: 16px 0px 0px 0px;
     padding: 10px 15px;
   }
 
-  #password {
-    font-size: 1rem;
-  }
-}
-
 @media (max-width: 500px) {
-  .btn {
+  .btng, .btnc {
     font-size: 0.8rem;
   }
 }

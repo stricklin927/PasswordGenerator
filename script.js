@@ -107,13 +107,17 @@ function generatePassword() {
     return ps;
 }
 
-// Add event listener to generate button
+// Add event listener to generate button ?????????????????????????
 generateBtn.addEventListener("click", writePassword);
+
+
 
 // Generates new password into textbox
 function UserInput(ps) {
   document.getElementById("password").textContent = ps;
 }
+
+
 
 // Copy to clipboard button
 var copy = document.querySelector("#copy");
@@ -122,6 +126,6 @@ copy.addEventListener("click", function() {
 });
 function copyPassword() {
   document.getElementById("password").select();
-  document.execCommand("Copy");
+  document.execCommand("copy");
   alert("Copied to Clipboard");
 }
